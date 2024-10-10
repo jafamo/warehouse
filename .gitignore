@@ -29,8 +29,8 @@
 /bin/*
 !bin/console
 !bin/symfony_requirements
-/.env.local
-/.env.*.local
+.env.local
+.env.*.local
 
 /apps/*/*/var/
 !/apps/*/*/var/.gitkeep
@@ -38,7 +38,7 @@
 /apps/*/*/build/
 !/apps/*/*/build/supervisor/.gitkeep
 
-/vendor/
+vendor/
 .phpunit.result.cache
 
 # Assets and user uploads
@@ -50,11 +50,12 @@
 /phpunit.xml
 
 # Build data
-/build/
+build/
+/build
 
 # Composer PHAR
 /composer.phar
-/build
+
 
 # Backup entities generated with doctrine:generate:entities command
 **/Entity/*~
@@ -62,3 +63,7 @@
 # Embedded web-server pid file
 /.web-server-pid
 .php-cs-fixer.cache
+
+
+workspace.xml
+.idea*
