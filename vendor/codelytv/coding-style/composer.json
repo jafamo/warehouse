@@ -1,0 +1,21 @@
+{
+    "name": "codelytv/coding-style",
+    "description": "PHP Coding Style rules we use in Codely",
+    "type": "library",
+    "keywords": ["static analysis", "code style"],
+    "license": "AGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Codely",
+            "homepage": "https://codely.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CodelyTv\\": "src/"
+        }
+    },
+    "require": {
+        "symplify/easy-coding-standard": "^12.0"
+    }
+}
